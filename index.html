@@ -1,2 +1,282 @@
 <!DOCTYPE html>
-ic nie
+<html lang="pl">
+	<head>
+		<meta charset="utf-8"/>
+		<title> Maciej Hancyk WebDeveloper</title>
+		<link rel="stylesheet" href="style.css" type="text/css"/>
+		<link rel="stylesheet" href="css/fontello.css" type="text/css" />
+			<script>
+					$(document).ready(function() { 
+
+					$('a[href^="#"]').on('click', function(event) {
+
+						var target = $( $(this).attr('href') );
+
+						if( target.length ) {
+							event.preventDefault();
+							$('html, body').animate({
+								scrollTop: target.offset().top
+							}, 1000);
+						}
+					});
+
+					});
+			</script>
+	</head>
+<body>
+
+		<a href="#" class="scrollup"></a>
+	
+	<header id="header">
+		
+		<nav id="main">
+				<img src="logo.png" alt="logo" id="imie-logo"/>
+			<ul>
+				<div id="menu">
+					<li><a href="#" class="active">Start</a></li>
+					<li><a href="#dlaczego_ja_info" id="link1">Dlaczego ja?</a></li>
+					<li><a href="#" id="link2">Czego się uczę</a></li>
+					<li><a href="#" id="link3">o Mnie</a></li>
+					<li><a href="#" id="link4">Moje prace</a></li>
+					<li><a href="#" id="link5">Kontakt</a></li>
+				</div>
+			</ul>
+			</nav>
+	</header>
+	<div>
+		<table id="informacje">
+			<tr>
+				<td><i class="icon-briefcase"></i></td>
+				<td><i class="icon-coffee"></i></td>
+				<td><i class="icon-users"></i></td>
+				<td><i class="icon-graduation-cap"></i> </td>
+				
+			</tr>
+			<tr>
+				<td>Projekty</td>
+				<td>Wypite kawy</td>
+				<td>Klienci</td>
+				<td>Certyfikaty</td>
+			</tr>
+			<tr>
+				<td>0</td>
+				<td>12</td>
+				<td>0</td>
+				<td>0</td>
+			</tr>
+		</table>
+	</div>
+	<section>
+		<article>
+			<div id="info_about_me">
+				<h1 id="dlaczego_ja">DLACZEGO JA?</h1>
+				<div class="dlaczego_ja_info">
+					<div><i class="icon-calendar"></i></div>
+					<h3>PUNKTUALNOŚĆ</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+						Odit aut quibusdam debitis eos quisquam. 
+						Quod illum quaerat inventore veritatis tempora. 
+						Quam adipisci sint ullam distinctio quae. Voluptatibus esse itaque. 
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+						Laborum perferendis, accusantium expedita accusamus minus, 
+						iste dolores sapiente maiores! Ipsa tenetur blanditiis quas doloremque ad iusto, 
+						unde facere sed? Voluptatem, omnis!  Lorem ipsum dolor sit amet, 
+						consectetur adipisicing elit. Est consequuntur non autem similique saepe, 
+						repellat dolor reprehenderit modi id porro illo, 
+						omnis eos assumenda nam quo alias laborum soluta quibusdam.     
+					</p>
+				</div>
+				<div  class="dlaczego_ja_info">
+					<div><i class="icon-book"></i></div>
+					<h3>NAUKA</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+						Odit aut quibusdam debitis eos quisquam. 
+						Quod illum quaerat inventore veritatis tempora. 
+						Quam adipisci sint ullam distinctio quae. Voluptatibus esse itaque. 
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+						Laborum perferendis, accusantium expedita accusamus minus, 
+						iste dolores sapiente maiores! Ipsa tenetur blanditiis quas doloremque ad iusto, 
+						unde facere sed? Voluptatem, omnis!  Lorem ipsum dolor sit amet, 
+						consectetur adipisicing elit. Est consequuntur non autem similique saepe, 
+						repellat dolor reprehenderit modi id porro illo, 
+						omnis eos assumenda nam quo alias laborum soluta quibusdam.       
+					</p>
+					<div id="scrolldlaczegoja"></div>
+					<input type="submit" value="CERTYFIKATY" id="button-certyfikaty"/>
+				</div>
+				<div  class="dlaczego_ja_info">
+				<div><i class="icon-desktop"></i></div>	
+					<h3>DESIGN</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+						Odit aut quibusdam debitis eos quisquam. 
+						Quod illum quaerat inventore veritatis tempora. 
+						Quam adipisci sint ullam distinctio quae. Voluptatibus esse itaque. 
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+						Laborum perferendis, accusantium expedita accusamus minus, 
+						iste dolores sapiente maiores! Ipsa tenetur blanditiis quas doloremque ad iusto, 
+						unde facere sed? Voluptatem, omnis!  Lorem ipsum dolor sit amet, 
+						consectetur adipisicing elit. Est consequuntur non autem similique saepe, 
+						repellat dolor reprehenderit modi id porro illo, 
+						omnis eos assumenda nam quo alias laborum soluta quibusdam.
+				    </p>
+				</div>
+			</div>
+			<div id="calosc">
+						<div id="czego-sie-ucze">
+							<h2 id="czego2">Czego się uczę?</h2>
+							<div class="info-nauka"><center><i class="icon-keyboard"></i></center>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+								Odit aut quibusdam debitis eos quisquam. 
+								Quod illum quaerat inventore veritatis tempora. 
+								Quam adipisci sint ullam distinctio quae. Voluptatibus esse itaque. 
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+								Laborum perferendis, accusantium expedita accusamus minus, 
+								iste dolores sapiente maiores! Ipsa tenetur blanditiis quas doloremque ad iusto, 
+								unde facere sed? Voluptatem, omnis!  Lorem ipsum dolor sit amet, 
+								consectetur adipisicing elit. Est consequuntur non autem similique saepe, 
+								repellat dolor reprehenderit modi id porro illo, 
+								omnis eos assumenda nam quo alias laborum soluta quibusdam.     
+							</p></div>
+						</div>
+						<h3 style="color: #FFF;" id="html">HTML5</h3>
+						<div class="prog">
+							<div class="progBar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
+							<span class="srOnly">70% Complete</span>
+							</div>
+						</div><br>
+						<h3 style="color: #FFF;">CSS3</h3>
+						<div class="prog">
+							<div class="progBar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
+							<span class="srOnly">70% Complete</span>
+							</div>
+						</div><br>
+						<h3 style="color: #FFF;">JavaScript</h3>
+						<div class="prog">
+							<div class="progBar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
+							<span class="srOnly">70% Complete</span>
+							</div>
+						</div><br>
+						<h3 style="color: #FFF;">SQL</h3>
+						<div class="prog">
+							<div class="progBar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
+							<span class="srOnly">70% Complete</span>
+							</div>
+						</div><br>
+						<h3 style="color: #FFF;">PHP</h3>
+						<div class="prog">
+							<div class="progBar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
+							<span class="srOnly">70% Complete</span>
+							</div>
+							<div id="scrollomnie"></div>
+						</div><br>
+					</div>
+    <div id="omnie">
+        <h1 style="text-align: center;">O MNIE</h1>
+        <img src="" alt="Zdjęcie mojej krzywej mordy" id="zdjecie">
+        <p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+			Odit aut quibusdam debitis eos quisquam. 
+			Quod illum quaerat inventore veritatis tempora. 
+			Quam adipisci sint ullam distinctio quae. Voluptatibus esse itaque. 
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+			Laborum perferendis, accusantium expedita accusamus minus, 
+			iste dolores sapiente maiores! Ipsa tenetur blanditiis quas doloremque ad iusto, 
+			unde facere sed? Voluptatem, omnis!  Lorem ipsum dolor sit amet, 
+			consectetur adipisicing elit. Est consequuntur non autem similique saepe, 
+			repellat dolor reprehenderit modi id porro illo, 
+			omnis eos assumenda nam quo alias laborum soluta quibusdam.     
+        </p>
+	</div>
+	<div id="scrollprace"></div>
+		<div id="cytat">
+			<p id="cytat2">”Sprawdzanie postępów programisty za pomocą liczby linii kodu, które napisał, jest jak sprawdzanie postępów w budowaniu samolotu poprzez przyrost jego wagi” – Bill Gates</p>
+		</div>
+		<div id="mojeprace">
+			<h1>MOJE PRACE</h1>
+		</div>
+		<div id="scrollformularz"></div>
+		<div id="formularz">
+			<h1>FORMULARZ KONTAKTOWY</h1><br>
+			<div id="dane">
+				<p id="dane2">Maciej Hancyk<br>
+				kontakt@maciejhancyk.pl</p>
+				<input type="button" value="Przejdź" onclick="zmien()" id="zmien">
+			</div>
+			<div id="formularz2" style="display: none;">
+				<form action="" method="POST" name="zamówienie" id="zamowienie">
+						<ul>
+							<li>
+								<li>
+								<label>Imię:*</label>
+								<div><input name="imie" type="text" id="imie" required/></div>
+								</li>
+								<li>
+								<label>Nazwisko:*</label>
+								<div><input name="nazwisko" type="text" id="nazwisko" required/></div>
+								</li>
+								<li>
+								<label>Email:*</label>
+								<div><input name="email" type="text" id="email" required/></div>
+								</li>
+								<li>
+								<label>Treść*:</label>
+								<div><textarea name="tresc" cols="12" rows="4" id="tresc" required></textarea></div>
+								</li>
+								<li>
+								<label><a href="regulamin.html">Akceptuję regulamin :</a></label>
+								<div><input name="regulamin" type="checkbox" id="regulamin" required/></div>
+							</li>
+						</ul>
+					<input name="wyslij" type="submit" value="Wyślij" id="wyslij" onclick="zmien2()"/><input type="reset" value="Reset" id="reset"/>
+				</form>
+			</div>
+			<div id="podziekowanie" style="display: none;"><h1>Twoja wiadomość została wysłana! Postaramy się na nią odpowiedzieć najszybciej jak to możliwe.</h1></div>
+		</div>
+	</article>
+	</section>
+	<footer id="colophon" class="site-footer" role="contentinfo">
+			<div class="site-info container">
+				<a href="">Copyright © 2018</a>
+				<span class="sep"> | </span>
+				Realizacja: Maciej Hancyk
+			</div><!-- .site-info -->
+		</footer>
+<script src="javascript.js"></script>
+<script src="jquery-3.3.1.min.js"></script>
+<script src="jquery.scrollTo.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script>
+	$(document).ready(function(){
+		var NavY = $('nav').offset().top;
+
+		var stickyNav = function() {
+			var ScrollY = $(window).scrollTop();
+			if(ScrollY > NavY){
+				$('nav').addClass('sticky');
+			}
+			else{
+				$('nav').removeClass('sticky');
+			}
+			};
+			stickyNav();
+			$(window).scroll(function(){
+				stickyNav();
+				
+			});
+	});
+</script>
+<!--<script>
+	jQuery(function($)
+		{
+						
+			const menu=$('#main').height(); //pobierasz wysokość swojej nawigacji
+			$('#link1').click(()=>{$.scrollTo($('#dlaczego_ja'), {duration:500,offset:-menu});}
+			//scrolujesz do mniejsca minus offset taki jak twoja nawigacja
+	
+		});
+	
+	
+</script>-->
+</body>
+</html>	
